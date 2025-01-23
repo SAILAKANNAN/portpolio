@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Portfolio</title>
+
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+            color: #333;
+        }
+
+        header {
+            background-color: #2c3e50;
+            color: #fff;
+            padding: 1em;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #34495e;
+            padding: 0.5em;
+        }
+
+        nav a {
+            color:white;
+            text-decoration: none;
+            margin: 0 1em;
+        }
+        nav a:hover{
+            color: yellow;
+        }
+
+        section {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+
+        h2 {
+            color: #3498db;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        #video-container {
+            position: relative;
+            width: 100%;
+            padding-bottom: 56.25%;
+            overflow: hidden;
+            margin-top: 20px;
+        }
+
+        iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+        footer {
+            background-color: #2c3e50;
+            color: #fff;
+            padding: 1em;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Your Name - Web Developer</h1>
+    </header>
+  
+
+
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Portfolio</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="Home.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="About-us.html">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="project.html">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Resume.html">Resume</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Blogs.html">Blog</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section id="home">
+        <h2>Clear and Professional Introduction</h2>
+        <p>Introduce yourself with a brief and clear statement about who you are and what you do. Include your current role and expertise.</p>
+        <!-- Add an image here -->
+        <img src="Image & logo/photo.jfif" alt="Your Image">
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Share a compelling story about your background, passion for development, and key achievements. Mention your skills, technologies you specialize in, and your approach to problem-solving.</p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills and Technologies</h2>
+        <p>Clearly list your technical skills and proficiency levels. Highlight specific programming languages, frameworks, tools, and methodologies you are experienced in.</p>
+    </section>
+
+    <section id="projects">
+        <h2>Projects Showcase</h2>
+        <p>Feature a diverse range of projects that highlight your abilities. Include a mix of personal projects, open-source contributions, and professional work. Provide details on your role, technologies used, and the impact of the project.</p>
+    </section>
+
+    <section id="code-samples">
+        <h2>Code Samples</h2>
+        <p>Include snippets or links to your GitHub repository to showcase your coding style and quality. Highlight any specific challenges you faced and how you overcame them.</p>
+    </section>
+
+    <section id="responsive-design">
+        <h2>Responsive Design</h2>
+        <p>Ensure your portfolio is mobile-friendly and displays well on various devices. Use responsive design principles to create a seamless user experience.</p>
+    </section>
+
+    <section id="resume">
+        <h2>Resume/CV</h2>
+        <p>Include a downloadable resume or CV that provides an in-depth overview of your education, work experience, and skills. Keep it concise and tailored to the development industry.</p>
+    </section>
+
+    <section id="testimonials">
+        <h2>Testimonials</h2>
+        <p>If possible, include recommendations or testimonials from colleagues, clients, or supervisors. Positive feedback can add credibility to your skills and work ethic.</p>
+    </section>
+
+    <section id="learning">
+        <h2>Continuous Learning</h2>
+        <p>Showcase your commitment to continuous learning and improvement. Mention any certifications, courses, or workshops you've completed.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Information</h2>
+        <p>Provide clear contact information for potential employers or collaborators. Include links to your professional social media profiles and a contact form if applicable.</p>
+    </section>
+
+    <section id="blog">
+        <h2>Blog or Articles</h2>
+        <p>If you enjoy writing, consider adding a blog section where you share insights, tutorials, or thoughts about the tech industry.</p>
+        <!-- Add an image or video here -->
+        <div id="video-container">
+            <!-- Replace the video URL with your actual video URL -->
+            <iframe src="Image & logo/Follow us.mp4" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Your Name - Web Developer</p>
+    </footer>
+
+    
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</body>
+</html>
